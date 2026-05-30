@@ -1,0 +1,11 @@
+t = 5000
+h = int(input("Masukkan harga barang: "))
+
+while h <= 0:
+    t = t + h
+    h = int(input(" Masukkan harga barang: "))
+
+if t >= 50000:
+    t = t - 5000
+
+print(" Total yang harus dibayar = Rp.",t)

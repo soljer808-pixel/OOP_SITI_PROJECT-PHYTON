@@ -1,0 +1,18 @@
+if pilihan == "1": 
+    hasil = angka1 + angka2 
+    print("Hasil =", hasil) 
+ 
+elif pilihan == "2": 
+    hasil = angka1 - angka2 
+    print("Hasil =", hasil) 
+ 
+elif pilihan == "3": 
+    hasil = angka1 * angka2 
+    print("Hasil =", hasil) 
+ 
+elif pilihan == "4": 
+    hasil = angka1 / angka2 
+    print("Hasil =", hasil) 
+    
+ else: 
+    print("Pilihan tidak tersedia") 
